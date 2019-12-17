@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "999442022655",
+    "firebase_url": "https://molta-ee5ce.firebaseio.com",
+    "project_id": "molta-ee5ce",
+    "storage_bucket": "molta-ee5ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999442022655:android:7aef765b45cb38fa5eccca",
+        "android_client_info": {
+          "package_name": "com.example.molta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999442022655-9lnuhlnjd6iivk14ut9pkmufee0a45ol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.molta",
+            "certificate_hash": "36da55df9ea6be06500020a50a0a31d9207fc4a1"
+          }
+        },
+        {
+          "client_id": "999442022655-nph28oirfqj4dc7djf2ddp174l8nctpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEVdF1ANBYclNVZoNaaiukiTGYunTf3uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999442022655-nph28oirfqj4dc7djf2ddp174l8nctpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
