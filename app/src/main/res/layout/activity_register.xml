@@ -67,30 +67,32 @@ android:fitsSystemWindows="true">
             android:textSize="16dip" />
     </LinearLayout>
 
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:text="Or"
-        android:gravity="center"
-        android:textSize="18dip"/>
+    <!--<TextView-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--android:text="Or"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="18dip"/>-->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:background="#D32F2F"
-        android:text="Google"
-        android:textAllCaps="false"
-        android:textColor="#FDFDFE" />
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:id="@+id/facebookLogin"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Facebook"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#FDFDFE"-->
+        <!--android:background="@color/com_facebook_blue"-->
+        <!--android:layout_marginBottom="12dp"/>-->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:background="#303F9F"
-        android:text="Facebook"
-        android:textAllCaps="false"
-        android:textColor="#FDFDFE" />
+    <!--<com.google.android.material.button.MaterialButton-->
+        <!--android:id="@+id/googleLogin"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Google"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#FDFDFE"-->
+        <!--android:background="#D32F2F"-->
+        <!--/>-->
 </LinearLayout>
 </ScrollView>

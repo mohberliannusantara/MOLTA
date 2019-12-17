@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ForgetPassword"></activity>
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".SplashScreen" />
         <activity

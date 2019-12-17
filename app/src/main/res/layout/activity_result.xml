@@ -5,7 +5,7 @@
     android:fitsSystemWindows="true">
 
     <ImageView
-        android:id="@+id/imageInput"
+        android:id="@+id/imageCapture"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -29,22 +29,12 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
-            android:id="@+id/btnImageCapture"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#4CAF50"
-            android:text="Capture"
-            android:textAllCaps="false"
-            android:textColor="#FDFDFE" />
-
-        <Button
-            android:id="@+id/btnLogout"
+            android:id="@+id/btnBack"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#D32F2F"
-            android:text="Logout"
+            android:text="Back"
             android:textAllCaps="false"
             android:textColor="#FDFDFE" />
     </LinearLayout>

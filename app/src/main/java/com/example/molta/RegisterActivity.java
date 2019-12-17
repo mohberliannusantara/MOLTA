@@ -12,6 +12,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.facebook.CallbackManager;
+import com.facebook.login.widget.LoginButton;
+import com.google.android.gms.common.SignInButton;
+import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -22,12 +26,22 @@ import static android.content.ContentValues.TAG;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    View view;
-    Button btnRegister;
     EditText etEmail, etPassword;
     TextView login;
+    Button btnRegister;
 
     private FirebaseAuth firebaseAuth;
+
+    String TAG = "Register";
+
+//    SignInButton googleLoginButton;
+//    LoginButton facebookLoginButton;
+//
+//    private final static int RC_SIGN_IN = 2;
+
+//    GoogleApiClient googleApiClient;
+//
+//    CallbackManager callbackManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +52,11 @@ public class RegisterActivity extends AppCompatActivity {
         etPassword = findViewById(R.id.etPassword);
         btnRegister = findViewById(R.id.btnRegister);
 
+        login = findViewById(R.id.link_login);
+
+//        googleLoginButton = findViewById(R.id.googleLogin);
+//        facebookLoginButton = findViewById(R.id.facebookLogin);
+//
         firebaseAuth = FirebaseAuth.getInstance();
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
@@ -76,7 +95,8 @@ public class RegisterActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(intent);
             }
         });
     }
